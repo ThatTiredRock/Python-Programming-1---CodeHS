@@ -1,0 +1,30 @@
+def build_tower():
+    move()
+    put_ball()
+    turn_left()
+    move()
+    put_ball()
+    move()
+    put_ball()
+    move()
+    
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def come_down_tower():
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    move()
+    move()
+
+build_tower()
+turn_right()
+come_down_tower()
+turn_left()
+move()
+build_tower()
+turn_right()
