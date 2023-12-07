@@ -1,0 +1,8 @@
+for i in range(1):
+    move()
+
+for i in range(100):
+    take_ball()
+    
+for i in range(1):
+    move()
